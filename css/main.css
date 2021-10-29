@@ -8,4 +8,11 @@ header{
 }
 ul{
     display: flex;
+    list-style: circle;
+}
+li{
+    margin:20px;
+}
+li:last-child{
+    margin-right: 0;
 }
